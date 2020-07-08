@@ -17,7 +17,6 @@ pre_config = [
 
 
 function process_json(j){
-	j['Conf']['watchedThreads']['4chan.org']['boards']
 	Object.keys(j['Conf']['watchedThreads']['4chan.org']['boards']).forEach(function(key) {
 		pre_config.push(
 		[
